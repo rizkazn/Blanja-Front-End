@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Metropolis;
+  src: url(../../assets/Fonts/Metropolis-Regular.otf) format("otf")
+}
+  
+  .container {
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px ;
+  }
+
+  .title {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    color: #222222;
+    margin-bottom: 4px;
+  }
+  
+  .desc {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1em;
+    color: #9b9b9b;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .categoryProduct {
+    margin-top: 50px;
+  }
+  
+  .sliderImage {
+    margin-right: 20px;
+    width: 206px !important;
+    height: 220px;
+    border-radius: 5px;
+  }
+  
+  button.slick-next.slick-arrow {
+    right: 5%;
+  }
+  
+  button.slick-prev.slick-arrow {
+    left: 2%;
+  }
+  
+  @media (min-width: 992px) {
+    .colMd {
+      flex: 0 0 auto;
+      width: 20% !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .marginTopBody {
+      margin-top: 90px;
+    }
+  
+    .categoryProduct {
+      margin-top: 30px;
+    }
+  
+    .title {
+      font-size: 18px;
+      line-height: unset;
+    }
+  
+    .sliderImage {
+      width: 100px !important;
+      height: 100px;
+    }
+  }

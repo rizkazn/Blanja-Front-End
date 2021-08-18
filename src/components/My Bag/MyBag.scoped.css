@@ -1,0 +1,628 @@
+@font-face {
+  font-family: Metropolis;
+  src: url(../../assets/Fonts/Metropolis-Regular.otf) format("otf")
+}
+  
+  /* Navbar */
+  div#navbarSupportedContent {
+    justify-content: space-between;
+  }
+  
+  nav {
+    height: 100px;
+    background: #ffffff;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+  }
+  
+  nav.navbar .container .navbar-brand {
+    display: flex;
+    font-family: Metropolis;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #db3022;
+    margin-right: 80px;
+  }
+  
+  .navbar-brand span {
+    height: 100%;
+    padding-top: 18px !important;
+    margin-left: 5px;
+  }
+  
+  .navbar-brand img {
+    height: 44px;
+    width: 31px;
+  }
+  
+  form.d-flex img.search {
+    position: absolute;
+    right: 72px;
+    bottom: 50%;
+    color: #dadada;
+    height: 11px;
+    width: 11px;
+    transform: translateY(25%);
+  }
+  
+  form.d-flex {
+    position: relative;
+  }
+  
+  form.d-flex input {
+    height: 40px;
+    width: 507px;
+    border-radius: 23px;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #9b9b9b;
+  }
+  
+  ul.navbar-nav.ml-auto.mb-2.mb-lg-0 {
+    align-items: center;
+  }
+  
+  ul.navbar-nav.ml-auto.mb-2.mb-lg-0 li img.cart {
+    height: 15px;
+    width: 22px;
+    border-radius: 0px;
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    margin-left: 43px;
+  }
+  
+  ul li a img.profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  
+  /* Cart */
+  .row h3 {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    color: #222222;
+    margin: 150px 0 30px 0;
+  }
+  
+  .row .col-4.right {
+    width: 370px;
+    height: 180px;
+    background: #ffffff;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+  }
+  
+  .row .col-4.right h5 {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+    margin: 24px 0 30px 24px;
+  }
+  
+  .row .col-4.right .sub-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px 34px 24px; 
+  }
+  
+  .row .col-4.right .sub-total span {
+    font-family: Metropolis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #9B9B9B;
+  }
+  
+  .row .col-4.right .sub-total span.price {
+    color: #222;
+  }
+  
+  .row .col-4.right button {
+    background: #db3022;
+    border-radius: 25px;
+    width: 322px;
+    height: 36px;
+    border-radius: 25px;
+    border: unset;
+    color: #fff;
+    margin: 0 24px 24px;
+  }
+  
+  .row .col.left {
+    width: 370px;
+  }
+  
+  .all-item {
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 720px;
+    height: 64px;
+    background: #ffffff;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .form-check .form-check-input:checked {
+    background-color: #db3022;
+    border: #db3022;
+  }
+  
+  .form-check label {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222;
+  }
+  
+  a.delete {
+    color: #db3022;
+    text-decoration: none;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+    height: 126px;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 0 42px 0 24px;
+  }
+  
+  .item img {
+    width: 103px;
+    height: 69px;
+    left: 204px;
+    top: 330px;
+    border-radius: 8px;
+  }
+  
+  .item .detail h5 {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: unset;
+    width: 255px;
+  }
+  
+  .item .detail span {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9b9b9b;
+  }
+  
+  .item p {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+    margin: unset;
+  }
+  
+  .item .count {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+  }
+  
+  .item .count span {
+    margin: 0 17px;
+  }
+  
+  .item .count .minus,
+  .item .count .plus {
+    width: 36px;
+    height: 36px;
+    border: unset;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+  
+  .item .count .minus {
+    background: #d5d5d5;
+    color: #fff;
+  }
+  
+  .item .count .plus {
+    background: #fff;
+    color: #222;
+    box-shadow: 0px 0px 4px rgba(142, 142, 142, 0.25);
+  }
+  
+  /* Modal Filter */
+  .modal-content .modal-header .btn-close {
+    margin: unset;
+  }
+  
+  .modal-content {
+    width: 450px;
+  }
+  
+  .modal-content .modal-header {
+    justify-content: flex-start;
+    padding: 5px;
+    box-shadow: 0px 0px 6px rgba(53, 50, 50, 0.25);
+  }
+  
+  .modal-header .btn-close {
+    margin: 0;
+  }
+  
+  .modal-header .modal-title {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #222222;
+    margin-top: 2px;
+  }
+  
+  .colors,
+  .size,
+  .category,
+  .brand {
+    box-shadow: 0px 0px 6px rgba(53, 50, 50, 0.25);
+    padding: 20px 25px;
+  }
+  
+  .colors .title,
+  .size .title,
+  .category .title,
+  .brand .title {
+    font-family: Metropolis;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+  }
+  
+  .colors .list-color {
+    display: flex;
+  }
+  
+  .colors .list-color .form-check {
+    padding-left: 0;
+  }
+  
+  .colors .list-color .form-check input {
+    width: 36px;
+    height: 36px;
+    margin: 15px 20px 15px 0;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  .list-size .form-check input,
+  .list-category .form-check input {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    border-radius: 0.25rem;
+  }
+  
+  .list-category {
+    display: block;
+  }
+  
+  .list-category .form-check input {
+    width: 100px;
+  }
+  
+  .modal-content .category {
+    margin-top: unset;
+  }
+  
+  .modal-content .brand select {
+    border: unset;
+    margin: unset;
+    padding: unset;
+    font-family: Metropolis;
+    font-size: 11px;
+    line-height: 11px;
+    color: #9b9b9b;
+  }
+  .modal-footer {
+    justify-content: space-evenly;
+    box-shadow: 0px -8px 10px rgba(217, 217, 217, 0.25);
+  }
+  
+  .modal-footer .button {
+    width: 160px;
+    height: 36px;
+    background: unset;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-family: Metropolis;
+    font-size: 14px;
+  }
+  
+  .modal-footer .button-danger {
+    background: #db3022;
+    border: unset;
+    color: #fff;
+  }
+  
+  .modal-footer .button-secondary {
+    border: 1px solid #222222;
+  }
+  
+  .form-check .form-check-input.black {
+    background: #000;
+  }
+  
+  .form-check .form-check-input.white {
+    background: #fff;
+    box-shadow: 1px 1px #8e8e8e;
+  }
+  
+  .form-check .form-check-input.red {
+    background: #db3022;
+  }
+  
+  .form-check .form-check-input.gray {
+    background: #8e8e93;
+  }
+  
+  .form-check .form-check-input.cream {
+    background: #e2bb8d;
+  }
+  
+  .form-check .form-check-input.blue {
+    background: #151867;
+  }
+  
+  .colors .form-check .form-check-input:checked {
+    box-shadow: 0 0 0 1px #db3022;
+    background-image: unset;
+  }
+  
+  .list-size .form-check .form-check-input.m::before {
+    content: "M";
+    font-weight: bold;
+  }
+  
+  .list-size .form-check .form-check-input.s::before {
+    content: "S";
+    font-weight: bold;
+  }
+  
+  .list-size .form-check .form-check-input.l::before {
+    content: "L";
+    font-weight: bold;
+  }
+  
+  .list-size .form-check .form-check-input.xl::before {
+    content: "XL";
+    font-weight: bold;
+  }
+  
+  .list-size .form-check .form-check-input.xs::before {
+    content: "XS";
+    font-weight: bold;
+  }
+  
+  .list-size .form-check .form-check-input:checked,
+  .list-category .form-check .form-check-input:checked {
+    color: #fff;
+    background: #db3022;
+    border: 1px solid #db3022;
+  }
+  
+  /* Category */
+  .list-category .form-check .form-check-input.all::before {
+    content: "All";
+    font-weight: bold;
+  }
+  
+  .list-category .form-check .form-check-input.women::before {
+    content: "Women";
+    font-weight: bold;
+  }
+  
+  .list-category .form-check .form-check-input.men::before {
+    content: "Men";
+    font-weight: bold;
+  }
+  
+  .list-category .form-check .form-check-input.boys::before {
+    content: "Boys";
+    font-weight: bold;
+  }
+  
+  .list-category .form-check .form-check-input.girls::before {
+    content: "Girls";
+    font-weight: bold;
+  }
+  
+  @media (min-width: 576px) {
+    .row .col-4.right {
+      padding: unset;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 80px;
+    }
+  
+    .navbar-collapse {
+      background-color: #fff;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    form.d-flex {
+      margin-top: 10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    form.d-flex input {
+      width: 300px;
+      height: 30px;
+    }
+  
+    ul.navbar-nav.ml-auto.mb-2.mb-lg-0 li {
+      margin-top: 10px;
+    }
+  
+    ul.navbar-nav.ml-auto.mb-2.mb-lg-0 li a {
+      margin-left: 0;
+    }
+  
+    ul li a.nav-link {
+      margin-left: 0;
+    }
+  
+    main .container form .row h3 {
+      margin: 90px 0 10px;
+      font-size: 24px;
+    }
+  
+    main .container form .row .left {
+      width: 100%;
+    }
+  
+    main .container form .row .left .all-item,
+    main .container form .row .left .item {
+      width: 100%;
+      padding: 10px;
+      height: unset;
+      margin-bottom: 10px;
+    }
+  
+    main .container form .row .left .all-item .form-check .form-check-label,
+    main .container form .row .left .all-item a {
+      font-size: 12px;
+    }
+    
+    main .container form .row .left .item img {
+      width: 55px;
+      height: 35px;
+      margin-right: 5px;
+    }
+  
+    main .container form .row .left .item .detail h5 {
+      font-size: 12px;
+      line-height: 1.2;
+      width: 100px;
+    }
+  
+    main .container form .row .left .item .detail span {
+      font-size: 10px;
+    }
+  
+    main .container form .row .left .item .count {
+      font-size: 12px;
+    }
+  
+    main .container form .row .left .item .count button {
+      width: 20px;
+      height: 20px;
+    }
+  
+    main .container form .row .left .item .count span {
+      margin: 0 5px;
+    }
+  
+    main .container form .row .left .item p {
+      font-size: 12px;
+    }
+  
+    main .container form .row {
+      justify-content: center;
+    }
+  
+    main .container form .row .right {
+      width: 93.5%;
+    }
+  
+    main .container form .row .right h5,
+    main .container form .row .right .sub-total {
+      margin-left: unset;
+    }
+  
+    main .container form .row .right button {
+      width: 200px;
+      float: right;
+    }
+  
+    /* Modal Filter */
+    .modal.fade.show .modal-dialog .modal-content {
+      width: 100%;
+    }
+  
+    .list-color {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .colors .list-color .form-check input {
+      margin: unset;
+    }
+  
+    .size .list-size .form-check input {
+      width: 35px;
+      height: 35px;
+      font-size: 14px;
+    }
+    .size .list-size .form-check,
+    .category .list-category .form-check {
+      margin-right: .5rem;
+    }
+  
+    .category .list-category .form-check input {
+      width: 80px;
+      height: 35px;
+      font-size: 14px;
+    }
+  
+    .modal-footer .button {
+      width: 120px;
+      height: 30px;
+    }
+  }

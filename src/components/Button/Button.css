@@ -1,0 +1,13 @@
+.button {
+    background: unset;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-size: 14px;
+    border: 1.5px solid rgb(34, 34, 34);
+  }
+
+.button:hover {
+    background: rgb(219, 48, 34);
+    border: unset;
+    color: #fff;
+  }

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Metropolis;
+  src: url(../../assets/Fonts/Metropolis-Regular.otf) format("otf")
+}
+
+.container {
+  margin-top: 10px;
+  padding: 15px;
+  border: 2px ;
+}
+
+.slider-content {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.title{
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 34px;
+  color: #222222;
+  margin-bottom: 4px;
+}
+
+.desc {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1em;
+    color: #9b9b9b;
+}
+
+.category-product {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9b9b9b;
+}
+
+.card {
+  box-sizing: content-box;
+  height: 150px;
+  width: 208px;
+  padding-left: 20px;
+  border-style: none;
+  margin-top:25px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.main-slider button.slick-next.slick-arrow {
+  right: 5%;
+}
+
+.main-slider button.slick-prev.slick-arrow {
+  left: 2%;
+}
+
+button.slick-prev.slick-arrow,
+button.slick-next.slick-arrow {
+  z-index: 1000;
+}
+
+button.slick-next.slick-arrow {
+  right: .5%;
+}
+
+.list-category-product button.slick-prev.slick-arrow {
+  display: none !important;
+}
+
+.slick-next:before, .slick-prev:before {
+  font-size: 40px;
+  color: #E5E5E5;
+}
+.slick-dots {
+  width: unset;
+}
+
+.slider-content:hover{
+  display: block;
+  transition: all ease 0.3s;
+  transform: scale(1.1) translateY(-5px);
+} 
