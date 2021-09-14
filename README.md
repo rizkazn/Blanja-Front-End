@@ -1,3 +1,4 @@
+<h1 align="center">Blanja (E-Commerce)</h1>
 <p align="center">
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="700px" alt="Logo.jpg" />
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="700px" alt="Logo.jpg" />
