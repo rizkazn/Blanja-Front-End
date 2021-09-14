@@ -7,26 +7,31 @@ pipeline {
     stages {
         stage('Build Image') {
             steps {
-                script {
-                    builderImages = docker.build("${dockername}")
-                }
+                sh 'echo "coba"'
             }
         }
-        stage('Test Image') {
-            steps {
-                script {
-                    builderImages.inside {
-                        sh "echo pass"
-                    }
-                }
-            }
-        }
-        stage('Push Image') {
-            steps {
-                script {
-                    builderImages.push()
-                }
-            }
-        }
+        // stage('Build Image') {
+        //     steps {
+        //         script {
+        //             builderImages = docker.build("${dockername}")
+        //         }
+        //     }
+        // }
+        // stage('Test Image') {
+        //     steps {
+        //         script {
+        //             builderImages.inside {
+        //                 sh "echo pass"
+        //             }
+        //         }
+        //     }
+        // }
+        // stage('Push Image') {
+        //     steps {
+        //         script {
+        //             builderImages.push()
+        //         }
+        //     }
+        // }
     }
 }
