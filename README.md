@@ -1,10 +1,35 @@
 <h1 align="center">Blanja (E-Commerce)</h1>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
 <p align="center">
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="700px" alt="Logo.jpg" />
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="700px" alt="Logo.jpg" />
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591207/Capture_dxbcux.png" width="700px" alt="Logo.jpg" />
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591188/Capture3_lnukhm.png" width="700px" alt="Logo.jpg" />
 </p>
+
+Blanja is an e-commerce application that makes it easy for us to make online buying and selling transactions anywhere and anytime. Built with React Js on the front end, Node Js and Express Js on the back end. This application has two roles, namely seller and customer. As a seller in this application you can add, delete and update the items you want to sell. As a customer in this application you can add the items you want to buy into the bag to find out the details of the total payment.
+
+<p align="center">
+   <strong>Explore the docs »</strong>
+    <br />
+    <br />
+    <a href="https://blanjasite.netlify.app">View Demo</a>
+    ·
+    <a href="https://github.com/rizkazn/Blanja-Front-End-PERN-Stacks/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/rizkazn/Blanja-Front-End-PERN-Stacks/pulls">Request Feature</a>
+
+### Built With
+
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [Node.Js](https://nodejs.org/)
+* [Express.Js](https://expressjs.com/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [React.Js](https://reactjs.org/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -75,3 +100,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Demo Blanja Web
+
+This is Blanja Web build version, let's try it.
+
+<a href="https://blanjasite.netlify.app"></a>
+
+## Related Project
+
+RESTful API for this web application, clone this for development Blanja Web.
+
+<a href="https://github.com/rizkazn/Blanja-Rest-API-PEN-Stacks"></a>
