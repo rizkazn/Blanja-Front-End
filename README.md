@@ -104,12 +104,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Demo Blanja Web
 
-This is Blanja Web build version, let's try it.
-
-<a href="https://blanjasite.netlify.app"></a>
+This is Blanja Web build version, let's try [here](https://blanjasite.netlify.app)
 
 ## Related Project
 
-RESTful API for this web application, clone this for development Blanja Web.
-
-<a href="https://github.com/rizkazn/Blanja-Rest-API-PEN-Stacks"></a>
+RESTful API for this web application, clone [here](https://github.com/rizkazn/Blanja-Rest-API-PEN-Stacks) for development Blanja Web.
