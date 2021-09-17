@@ -26,10 +26,11 @@ Blanja web is an e-commerce platform, the features are similar to any other e-co
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 <br />
+<br />
 [![Express.js](https://img.shields.io/badge/Express.js-4.x-orange.svg?style=rounded-square)](https://expressjs.com/)
 [![Node.js](https://img.shields.io/badge/Node.js-v.12.13-green.svg?style=rounded-square)](https://nodejs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v.13.3-blue.svg?style=rounded-square)](https://www.postgresql.org/)
-[![React.Js](https://img.shields.io/badge/Redis-v.6.2-red.svg?style=rounded-square)](https://reactjs.org/)
+[![React.Js](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge?style=rounded-square)](https://reactjs.org/)
 
 # Getting Started with Create React App
 
