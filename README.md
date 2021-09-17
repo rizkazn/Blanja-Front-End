@@ -10,7 +10,7 @@
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591188/Capture3_lnukhm.png" width="700px" alt="Logo.jpg" />
 </p>
 
-Blanja web is an e-commerce platform, the features are similar to other e-commerce services such as register new user (whether as seller/customer) and login with it. As a seller  you can add, delete and update the items you want to sell. As a customer you can buy some products, checkout the products, search and filter products what you've looking for. Built with React.Js on the Frontend, Node.Js and Express.Js on the Backend. 
+Blanja web is an e-commerce platform, the features are similar to any other e-commerce services such as register new user (whether as seller/customer) and login with it. As a seller  you can add, delete and update the items you want to sell. As a customer you can buy some products, checkout the products, search and filter products what you've looking for. Built with React.Js on the Frontend, Node.Js and Express.Js on the Back end. 
 
 <p align="center">
    <strong>Explore the docs »</strong>
@@ -25,10 +25,10 @@ Blanja web is an e-commerce platform, the features are similar to other e-commer
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Node.Js](https://nodejs.org/)
-* [Express.Js](https://expressjs.com/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [React.Js](https://reactjs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-4.x-orange.svg?style=rounded-square)](https://expressjs.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-v.12.13-green.svg?style=rounded-square)](https://nodejs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v.13.3-blue.svg?style=rounded-square)](https://www.postgresql.org/)
+[![React.Js](https://img.shields.io/badge/Redis-v.6.2-red.svg?style=rounded-square)](https://reactjs.org/)
 
 # Getting Started with Create React App
 
