@@ -10,7 +10,7 @@
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591188/Capture3_lnukhm.png" width="700px" alt="Logo.jpg" />
 </p>
 
-Blanja is an e-commerce application that makes it easy for us to make online buying and selling transactions anywhere and anytime. Built with React Js on the front end, Node Js and Express Js on the back end. This application has two roles, namely seller and customer. As a seller in this application you can add, delete and update the items you want to sell. As a customer in this application you can add the items you want to buy into the bag to find out the details of the total payment.
+Blanja web is an e-commerce platform, the features are similar to other e-commerce services such as register new user (whether as seller/customer) and login with it. As a seller  you can add, delete and update the items you want to sell. As a customer you can buy some products, checkout the products, search and filter products what you've looking for. Built with React.Js on the Frontend, Node.Js and Express.Js on the Backend. 
 
 <p align="center">
    <strong>Explore the docs »</strong>
