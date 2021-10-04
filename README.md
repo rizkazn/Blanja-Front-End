@@ -1,4 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/calvin-cloud/image/upload/v1627004541/Front%20End/logo_blanja_jtyc2a.svg" alt="Logo.jpg" />Blanja (E-Commerce)</p>
+<p align="center"><img src="https://res.cloudinary.com/calvin-cloud/image/upload/v1627004541/Front%20End/logo_blanja_jtyc2a.svg" alt="Logo.jpg" /></p>
 <p align="center">
 
 <p align="center">
