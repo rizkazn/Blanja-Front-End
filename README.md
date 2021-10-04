@@ -1,16 +1,5 @@
-<h1 align="center">Blanja (E-Commerce)</h1>
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
+<p align="center"><img src="https://res.cloudinary.com/calvin-cloud/image/upload/v1627004541/Front%20End/logo_blanja_jtyc2a.svg" alt="Logo.jpg" />Blanja (E-Commerce)</p>
 <p align="center">
-  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="700px" alt="Logo.jpg" />
-  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="700px" alt="Logo.jpg" />
-  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591207/Capture_dxbcux.png" width="700px" alt="Logo.jpg" />
-  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591188/Capture3_lnukhm.png" width="700px" alt="Logo.jpg" />
-</p>
-
-Blanja web is an e-commerce platform, the features are similar to any other e-commerce services such as register new user (whether as seller/customer) and login with it. As a seller  you can add, delete and update the items you want to sell. As a customer you can buy some products, checkout the products, search and filter products what you've looking for. Built with React.Js on the Frontend, Node.Js and Express.Js on the Back end. 
 
 <p align="center">
    <strong>Explore the docs »</strong>
@@ -21,6 +10,20 @@ Blanja web is an e-commerce platform, the features are similar to any other e-co
     <a href="https://github.com/rizkazn/Blanja-Front-End-PERN-Stacks/issues">Report Bug</a>
     ·
     <a href="https://github.com/rizkazn/Blanja-Front-End-PERN-Stacks/pulls">Request Feature</a>
+</p>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Blanja web is an e-commerce platform, the features are similar to any other e-commerce services such as register new user (whether as seller/customer) and login with it. As a seller  you can add, delete and update the items you want to sell. As a customer you can buy some products, checkout the products, search and filter products what you've looking for. Built with React.Js on the Frontend, Node.Js and Express.Js on the Back end. 
+
+<p align="center">
+  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="700px" alt="Logo.jpg" />
+  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="700px" alt="Logo.jpg" />
+  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591207/Capture_dxbcux.png" width="700px" alt="Logo.jpg" />
+  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591188/Capture3_lnukhm.png" width="700px" alt="Logo.jpg" />
+</p>
+
 
 ### Built With
 
