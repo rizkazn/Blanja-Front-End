@@ -21,7 +21,8 @@ Blanja web is an e-commerce platform, the features are similar to any other e-co
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="700px" alt="Logo.jpg" />
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="700px" alt="Logo.jpg" />
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591207/Capture_dxbcux.png" width="700px" alt="Logo.jpg" />
-  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591188/Capture3_lnukhm.png" width="700px" alt="Logo.jpg" />
+  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1633329682/mybagblanja_cyjpze.jpg" width="700px" alt="Logo.jpg" />
+  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1633329688/checkoutblanja_ltpnv5.jpg" width="700px" alt="Logo.jpg" />
 </p>
 
 
