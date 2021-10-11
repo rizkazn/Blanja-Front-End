@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  reactjs:
+    image: rizkazn15/frontenddev:dev
+    mem_limit: 512M
+    mem_reservation: 128M
+    cpus: 0.5
+    ports:
+      - "8080:80"
+
+networks:
+  default:
+    external: true
+    name: dockernetwork
