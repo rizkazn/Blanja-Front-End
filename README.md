@@ -31,10 +31,10 @@ Blanja web is an e-commerce platform, the features are similar to any other e-co
   <table>
   <tr>
     <th>
-      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="450px" alt="Logo.jpg" />
+      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="450px" height="450px" alt="Logo.jpg" />
     </th>
     <th>
-      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="450px" alt="Logo.jpg" />
+      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="450px" height="450px"alt="Logo.jpg" />
     </th>
   </tr>
   </table>
