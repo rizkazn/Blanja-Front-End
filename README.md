@@ -28,8 +28,17 @@
 Blanja web is an e-commerce platform, the features are similar to any other e-commerce services such as register new user (whether as seller/customer) and login with it. As a seller  you can add, delete and update the items you want to sell. As a customer you can buy some products, checkout the products, search and filter products what you've looking for. Built with React.Js on the Frontend, Node.Js and Express.Js on the Back end. 
 
 <p align="center">
-  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="700px" alt="Logo.jpg" />
-  <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="700px" alt="Logo.jpg" />
+  <table>
+  <tr>
+    <th>
+      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="450px" alt="Logo.jpg" />
+    </th>
+    <th>
+      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="450px" alt="Logo.jpg" />
+    </th>
+  </tr>
+  </table>
+  
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591207/Capture_dxbcux.png" width="700px" alt="Logo.jpg" />
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1633329682/mybagblanja_cyjpze.jpg" width="700px" alt="Logo.jpg" />
   <img src="https://res.cloudinary.com/rizkazn/image/upload/v1633329688/checkoutblanja_ltpnv5.jpg" width="700px" alt="Logo.jpg" />
