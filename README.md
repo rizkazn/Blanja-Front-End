@@ -63,7 +63,7 @@ Blanja web is an e-commerce platform, the features are similar to any other e-co
       <img src="https://res.cloudinary.com/rizkazn/image/upload/v1634869525/forgotpass_y0lgrt.jpg" width="450px" alt="Logo.jpg" />
     </th>
     <th>
-      Architecture (On Process)
+      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1635496472/ARCHITECTURE_page-0001_cmzrnu.jpg" width="450px" alt="Logo.jpg" />
     </th>
   </tr>
   </table>
