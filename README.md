@@ -30,40 +30,50 @@ Blanja web is an e-commerce platform, the features are similar to any other e-co
   <tr>
     <th>
       <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591186/Capture4_lylned.png" width="450px" alt="Logo.jpg" />
+      <p align="center">Sign Up</p>
     </th>
     <th>
       <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591189/Capture2_w8olag.png" width="450px" alt="Logo.jpg" />
+      <p align="center">Login</p>
     </th>
   </tr>
   <tr>
     <th>
       <img src="https://res.cloudinary.com/rizkazn/image/upload/v1631591207/Capture_dxbcux.png" width="450px" alt="Logo.jpg" />
+      <p align="center">Home Page</p>
     </th>
     <th>
       <img src="https://res.cloudinary.com/rizkazn/image/upload/v1635118059/Produk_zk2d7u.png" width="450px" alt="Logo.jpg" />
+      <p align="center">Product</p>
     </th>
   </tr>
   <tr>
     <th>
       <img src="https://res.cloudinary.com/rizkazn/image/upload/v1633329682/mybagblanja_cyjpze.jpg" width="450px" alt="Logo.jpg" />
+      <p align="center">My Bag Page</p>
     </th>
     <th>
       <img src="https://res.cloudinary.com/rizkazn/image/upload/v1633329688/checkoutblanja_ltpnv5.jpg" width="450px" alt="Logo.jpg" />
+      <p align="center">Checkout</p>
     </th>
   </tr>
   <tr>
     <th>
       <img src="https://res.cloudinary.com/rizkazn/image/upload/v1634176110/profile_a0snpy.jpg" width="450px" alt="Logo.jpg" />
+      <p align="center">User Profile</p>
     <th>
       <img src="https://res.cloudinary.com/rizkazn/image/upload/v1634869514/inventory_llefni.jpg" width="450px" alt="Logo.jpg" />
+      <p align="center">Seller Inventory</p>
     </th>
   </tr>
     <tr>
     <th>
-      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1634869525/forgotpass_y0lgrt.jpg" width="450px" height="300px" alt="Logo.jpg" />
+      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1634869525/forgotpass_y0lgrt.jpg" width="450px" alt="Logo.jpg" />
+      <p align="center">Reset Password</p>
     </th>
     <th>
-      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1635496472/ARCHITECTURE_page-0001_cmzrnu.jpg" width="450px" height="300px"alt="Logo.jpg" />
+      <img src="https://res.cloudinary.com/rizkazn/image/upload/v1635496472/ARCHITECTURE_page-0001_cmzrnu.jpg" width="450px" alt="Logo.jpg" />
+      <p align="center">Architecture</p>
     </th>
   </tr>
   </table>
