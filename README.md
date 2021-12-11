@@ -1,7 +1,7 @@
 <h1 align="center">Blanja Website</h1>
 <p align="center">
   <a href="https://www.fazztrack.com/">
-    <img src="https://www.fazztrack.com/_nuxt/img/fazztrack-logo-color.db4c9cc.svg" width="200px" alt="Arkademylogo.svg" />
+     <img src="https://www.fazztrack.com/_nuxt/img/fazztrack-logo-color.cba88b7.svg" width="200px" alt="Fazztracklogo.svg" />
   </a>
 </p>
 <hr/>
