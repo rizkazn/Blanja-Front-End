@@ -3,13 +3,13 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Home from './pages/Home/home'
 import Login from './pages/Login/index'
 
-
 function App() {
     return (
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home}></Route>
                 <Route exact path="/login" component={Login}></Route>
+                {/* <Route exact path="/" component={Aside}></Route> */}
                 {/* <Route exact path="/home/profile/myproduct" component={ProfileMyProduct}></Route>
                 <Route exact path="/home/profile/myorder" component={ProfileMyOrder}></Route>
                 <Route exact path="/home/profile/add" component={ProfileAdd}></Route>

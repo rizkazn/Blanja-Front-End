@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './Aside.css'
+import './Aside.scoped.css'
 import profile from '../../assets/christian-buehner.svg'
 
 const Aside = () => {

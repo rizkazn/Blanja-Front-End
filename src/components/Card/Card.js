@@ -19,7 +19,7 @@ const Cards = (props) => {
               <img src={star} alt="star" />
               <img src={star} alt="star" />
               <img src={star} alt="star" />
-              (10)
+              (5/5)
             </li>
           </ul>
         </div>

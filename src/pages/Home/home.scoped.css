@@ -2,12 +2,6 @@
   font-family: Metropolis;
   src: url(../../assets/Fonts/Metropolis-Regular.otf) format("otf")
 }
-  
-  .container {
-    margin-top: 10px;
-    padding: 15px;
-    border: 2px ;
-  }
 
   .title {
     font-family: Metropolis;
@@ -18,7 +12,7 @@
     color: #222222;
     margin-bottom: 4px;
   }
-  
+
   .desc {
     font-family: Metropolis;
     font-style: normal;
@@ -30,10 +24,6 @@
   
   .link {
     text-decoration: none;
-  }
-  
-  .categoryProduct {
-    margin-top: 50px;
   }
   
   .sliderImage {
