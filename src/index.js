@@ -2,11 +2,20 @@ import React from "react"
 import ReactDOM from "react-dom"
 import Routers from "./routers"
 import "bootstrap/dist/css/bootstrap.min.css"
+import configStore from "./redux/store"
+import {persistStore} from 'redux-persist'
+import {Provider} from "react-redux"
+import {PersistGate} from 'redux-persist/integration/react'
+
+const redux = configStore()
+const persistor = persistStore(redux)
 
 ReactDOM.render(
-    <React.StrictMode>
-        <Routers />
-    </React.StrictMode>,
+    <Provider store={redux}>
+        <PersistGate persistor={persistor} loading={<div>loading..</div>}>
+            <Routers />
+        </PersistGate>
+    </Provider>, 
     document.getElementById("root")
 )
 

@@ -40,10 +40,10 @@ const Navbar2 = () => {
                 </svg>
               </Link></li>
             <li className="nav-item">
-              <Link to='/login' className="nav-link">Login</Link>
+              <Link to='/login-cust' className="nav-link">Login</Link>
             </li>
             <li className="nav-item">
-              <Link to='/' className="nav-link" href="../auth/Register/register.html">Sign Up</Link>
+              <Link to='/regist-cust' className="nav-link" href="../auth/Register/register.html">Sign Up</Link>
             </li>
           </ul>
         </div>
