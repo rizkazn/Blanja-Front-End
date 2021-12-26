@@ -18,7 +18,7 @@ class Home extends Component {
   componentDidMount() {
     axios({
       method: "GET",
-      url: `${process.env.REACT_APP_API}/products/`,
+      url: "http://3.141.113.43:9000/api/products",
     })
     .then((res) => {
       this.setState({
