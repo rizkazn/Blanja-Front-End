@@ -5,6 +5,7 @@ import LoginCust from './pages/LoginCustomer/index'
 import LoginSeller from './pages/LoginSeller/index'
 import RegistCust from './pages/RegisterCustomer/index'
 import RegistSeller from './pages/RegisterSeller/index'
+import Product from './pages/AuthHome/home'
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
                 <Route exact path="/login-seller" component={LoginSeller}></Route>
                 <Route exact path="/regist-cust" component={RegistCust}></Route>
                 <Route exact path="/regist-seller" component={RegistSeller}></Route>
-                {/* <Route exact path="/" component={Aside}></Route>  */}
+                <Route exact path="/product" component={Product}></Route> 
                 {/* <Route exact path="/home/profile/myproduct" component={ProfileMyProduct}></Route>
                 <Route exact path="/home/profile/myorder" component={ProfileMyOrder}></Route>
                 <Route exact path="/home/profile/add" component={ProfileAdd}></Route>

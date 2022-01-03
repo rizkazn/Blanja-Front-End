@@ -62,9 +62,9 @@ const inputPassword = (e) => {
             </Link>
             </div>
             <form action className="form-login">
-              <input onChange={inputName} type="text" className="form-input" placeholder="Name" />
-              <input onChange={inputEmail} type="text" className="form-input" placeholder="Email" />
-              <input onChange={inputPassword} type="text" className="form-input" placeholder="Password" />
+              <input onChange={inputName} type="text" className="form-input" placeholder="Name" required/>
+              <input onChange={inputEmail} type="email" className="form-input" placeholder="Email" required/>
+              <input onChange={inputPassword} type="password" className="form-input" placeholder="Password" required/>
               <p className="forgot-pass">
                 <a href>Forgot password?</a>
               </p>

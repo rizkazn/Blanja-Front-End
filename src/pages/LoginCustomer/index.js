@@ -16,7 +16,7 @@ class Login extends Component {
         this.state = {
             email: "",
             password: "",
-            role: "seller"
+            roles: "customer"
         }
     }
 
@@ -78,8 +78,8 @@ class Login extends Component {
             </Link>
             </div>
             <form action className="form-login">
-              <input onChange={this.ChangeEmail} type="text" className="form-input" placeholder="Email" />
-              <input onChange={this.ChangePassword} type="text" className="form-input" placeholder="Password" />
+              <input onChange={this.ChangeEmail} type="email" className="form-input" placeholder="Email" required />
+              <input onChange={this.ChangePassword} type="password" className="form-input" placeholder="Password" required />
               <p className="forgot-pass">
                 <a href>Forgot password?</a>
               </p>

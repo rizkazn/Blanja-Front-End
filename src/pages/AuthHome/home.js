@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar2 from '../../components/Navbar2/Navbar2'
+import Navbar from '../../components/Navbar/Navbar'
 import Promo from '../../components/CardPromo/Promo'
 import Category from '../../components/Categories/category'
 import Cards from '../../components/Card/Card'
@@ -34,7 +34,7 @@ class Home extends Component {
     
     return (
         <div>
-          <Navbar2 />
+          <Navbar />
             <main>
               <Promo />
                 <Category />

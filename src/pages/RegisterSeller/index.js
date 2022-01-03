@@ -73,11 +73,11 @@ const App = () => {
             </Link>
             </div>
             <form action className="form-login">
-              <input onChange={inputName} type="text" className="form-input" placeholder="Name" />
-              <input onChange={inputEmail} type="text" className="form-input" placeholder="Email" />
-              <input onChange={inputPhone} type="text" className="form-input" placeholder="Phone Number" />
-              <input onChange={inputStore} type="text" className="form-input" placeholder="Store Name" />
-              <input onChange={inputPassword} type="text" className="form-input" placeholder="Password" />
+              <input onChange={inputName} type="text" className="form-input" placeholder="Name" required/>
+              <input onChange={inputEmail} type="email" className="form-input" placeholder="Email" required/>
+              <input onChange={inputPhone} type="tel" className="form-input" placeholder="Phone Number" required/>
+              <input onChange={inputStore} type="text" className="form-input" placeholder="Store Name" required/>
+              <input onChange={inputPassword} type="password" className="form-input" placeholder="Password" required/>
               <p className="forgot-pass">
                 <a href>Forgot password?</a>
               </p>
