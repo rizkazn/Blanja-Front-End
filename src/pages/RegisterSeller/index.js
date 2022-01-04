@@ -15,7 +15,8 @@ const App = () => {
     const [roles] = useState('seller')
     const history = useHistory();
   
-    const Register = async () => {
+    const Register = async (e) => {
+      e.preventDefault()
       const body = new URLSearchParams();
       body.append("name", name);
       body.append('email', email);

@@ -30,15 +30,16 @@ class Login extends Component {
         })
             .then((res) => {
                 this.props.UserSet(res.data.result[0])
-                this.props.history.push("/") 
+                this.props.history.push("/product") 
             })
             .catch((error) => {
                 console.log(error)
             })
     }
 
-    SubmitHandler = async () => {
+    SubmitHandler = async (e) => {
         try {
+            e.preventDefault()
             const body = new URLSearchParams();
             body.set('email', this.state.email);
             body.set('password', this.state.password);

@@ -6,7 +6,7 @@ import profile from '../../assets/christian-buehner.svg'
 import "./Navbar.scoped.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const Navbar1 = () => {
+const Navbar1 = (props) => {
     return(
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container">
@@ -65,5 +65,7 @@ const Navbar1 = () => {
       </nav>
     )
   }
+
+                                
 
 export default Navbar1
