@@ -67,3 +67,7 @@ div .card-body {
   justify-content: space-between;
   line-height: 2.0;
 }
+
+.cursor{
+  cursor: pointer;
+}

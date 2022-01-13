@@ -70,7 +70,7 @@ const inputPassword = (e) => {
                 <a href>Forgot password?</a>
               </p>
               <button onClick={Register} className="form-input primary">
-                <a className="link" href> PRIMARY </a>
+                <a className="link" href> Signup </a>
               </button>
             </form>
             <p className="nohave-acc">

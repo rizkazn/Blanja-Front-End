@@ -1,10 +1,14 @@
 import './Card.scoped.css'
+import React from "react"
+import { Link } from "react-router-dom"
 import star from '../../assets/Star.svg'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Cards = (props) => {
   return (
     <div className="container">
-      <div className="card card-md-5">
+    <Link to={`/detail/${props.product_name}`}>
+      <div className="card card-md-5 cursor">
         <div className="images">
           <img src={props.product_image} className="image" alt="" />
         </div>
@@ -24,6 +28,7 @@ const Cards = (props) => {
           </ul>
         </div>
       </div>
+      </Link>
       </div>
   )
 }

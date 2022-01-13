@@ -6,6 +6,8 @@ import LoginSeller from './pages/LoginSeller/index'
 import RegistCust from './pages/RegisterCustomer/index'
 import RegistSeller from './pages/RegisterSeller/index'
 import Product from './pages/AuthHome/home'
+import DetailProduct from './pages/DetailPage/detail'
+import SearchProduct from './pages/SearchPage/search'
 
 function App() {
     return (
@@ -17,15 +19,16 @@ function App() {
                 <Route exact path="/regist-cust" component={RegistCust}></Route>
                 <Route exact path="/regist-seller" component={RegistSeller}></Route>
                 <Route exact path="/product" component={Product}></Route> 
-                {/* <Route exact path="/home/profile/myproduct" component={ProfileMyProduct}></Route>
-                <Route exact path="/home/profile/myorder" component={ProfileMyOrder}></Route>
+                <Route exact path="/detail/:id" component={DetailProduct}></Route>
+                <Route exact path="/search/:product_name" component={SearchProduct}></Route>
+                {/* <Route exact path="/home/profile/myorder" component={ProfileMyOrder}></Route>
                 <Route exact path="/home/profile/add" component={ProfileAdd}></Route>
                 <Route exact path="/home/bag" component={Bag}></Route>
                 <Route exact path="/login-seller" component={LoginSeller}></Route>
                 <Route exact path="/home/p/:id_product" component={DetailUser}></Route>
                 <Route exact path="/p/:id_product" component={DetailPublic}></Route>
                 <Route exact path="/home" component={HomeUser}></Route>
-                <Route exact path="/" component={HomePublic}></Route> */}
+                <Route exact path="/" component={HomePublic}></Route>  */}
             </Switch>
         </BrowserRouter>
     )

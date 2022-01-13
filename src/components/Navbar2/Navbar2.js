@@ -3,8 +3,16 @@ import { Link } from 'react-router-dom'
 import logo from '../../assets/Logo.svg'
 import search from '../../assets/Search.svg'
 import './Navbar2.scoped.css'
+import { useState } from 'react'
+import { useHistory } from "react-router-dom";
 
 const Navbar2 = () => {
+  let history = useHistory();
+  const [handleChange, sethandleChange] = useState('')
+  const Search = (e) => {
+    e.preventDefault()
+    history.push(`/search/${handleChange}`)
+  }
     return (
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
@@ -14,8 +22,8 @@ const Navbar2 = () => {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <form className="d-flex flex-row align-items-center">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <form className="d-flex flex-row align-items-center" action onSubmit={Search}>
+            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onkeypress="handleKeyPress(event)" onChange={(e) => sethandleChange(e.target.value)} />
             <img className="search" src={search} alt={search} />
             <span><Link to='/' type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <svg width={42} height={42} viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,6 +58,6 @@ const Navbar2 = () => {
       </div>
     </nav>
     )
-  }
+}
 
 export default Navbar2

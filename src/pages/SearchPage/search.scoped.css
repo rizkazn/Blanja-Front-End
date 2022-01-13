@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Metropolis;
+    src: url(../../assets/Fonts/Metropolis-Regular.otf) format("otf")
+  }
+
+.text-reguler {
+    font-family: Metropolis-Regular;
+}
+
+.text-bold {
+    font-family: Metropolis-Bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+span {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.result-page {
+    margin-top: 95px;
+}

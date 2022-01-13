@@ -85,7 +85,7 @@ class Login extends Component {
                 <a href>Forgot password?</a>
               </p>
               <button onClick={this.SubmitHandler} className="form-input primary">
-                <a className="link" href> PRIMARY </a>
+                <a className="link" href> Signin </a>
               </button>
             </form>
             <p className="nohave-acc">
